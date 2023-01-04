@@ -4,15 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 h1, h2, h3, h4{
     padding-bottom: 2rem ;
 }
 #task{
     background-color: rgb(255, 234, 187);
   }
-
+  
 main{
     padding: 3rem 5rem;
+}
+#task_1{
+    display: flex;
+    flex-direction: row;
+}
+#task_1 img{
+    width: 100%;
 }
 ol{
     list-style-position: inside;
