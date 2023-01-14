@@ -13,7 +13,7 @@ h1, h2, h3, h4{
 #task{
     background-color: rgb(255, 234, 187);
   }
-  
+ 
 main{
     padding: 3rem 5rem;
 }
@@ -37,4 +37,16 @@ ol li {
 }
 section{
     padding: 2rem 1rem;
+}
+#paper:before{
+    background: url(./paper.jpg);
+    content: "";
+    height: 100vh;
+    left: 0;
+    opacity: .03;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1500;
 }
