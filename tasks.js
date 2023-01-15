@@ -1,3 +1,3 @@
 //const header = document.querySelector("header");
-
-header.insertAdjacentHTML('beforebegin', `<div id="paper"></div>`)
+alert("The URL of this page is: " + window.location.href);
+//header.insertAdjacentHTML('beforebegin', `<div id="paper"></div>`)
